@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Only show if they're using bash.
-if [[ "$SHELL" == *bash* ]]; then
+if [ "$SHELL" == *bash* ]; then
 
   # Where the bash completion lives.
   file="$(pwd)/completions/mrt.bash"
